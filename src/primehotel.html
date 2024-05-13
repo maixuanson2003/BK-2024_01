@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="bar w-full h-[60px] grid grid-cols-12 bg-black items-center relative ">
+        <div class="name col-start-2 col-end-3 ">
+            <a href="/src/index.html" class="text-zinc-50 text-xl max-sm:text-sm ">Prime Hotel</h3>
+        </div>
+        <div class="login col-start-11 col-end-12 border-2 rounded-xl border-slate-100 max-sm:w-ful">
+            <a href="/src/login.html" class="text-zinc-50 text-center text-xl max-sm:text-sm max-sm:hidden ">Login </a>
+               <span class="text-center"> <i class="fa-solid fa-right-to-bracket text-zinc-50 text-center"></i></span>
+        </div>
+    </div>
+    <div class="content w-4/5 m-auto grid grid-cols-1 gap-y-4 mt-[20px] ">
+      <div class="control w-full grid grid-cols-6">
+            <div class="col-start-1 col-end-2 flex gap-4">
+              <p>sortby:</p>
+              <select class="w-[25px] h-[30px] border-2 rounded-xl border-gray-800" name="option" id="fieldid">
+                <option value="option1">Rating</option>
+                <option value="option2">name</option>
+                <option value="option3">price</option>
+              </select>
+              <div class="border-2 rounded-xl border-gray-800">
+                <p>affordable</p>
+              </div>
+            </div>
+      </div>
+      <div class="hotel grid grid-cols-3 gap-3 border-2 rounded-xl border-slate-700 w-auto h-auto max-sm:gap-2 sm:max-md:gap-3 ">
+        <div class="img col-span-1">
+          <img class="max-sm:h-full sm:max-md:h-full border-2 rounded-xl" src="/src/img/73821843_XL.webp" alt="">
+        </div>
+        <div class="demohotel grid grid-rows-4 col-span-2 max-sm:grid-rows-2 sm:max-md:grid-rows-2">
+        
+           <div>
+              <h1 class="text-2xl font-bold max-sm:text-[12px] sm:max-md:text-sm">Hotel Mountainview</h1>
+              <p>379 fm 2972 west rusk tx 75785</p>
+              <p><i class="fa-regular fa-star text-yellow-400"></i> 4,7 (95 review)</p>
+           </div>
+          <div class="standar flex items-center gap-11 max-sm:hidden sm:max-md:hidden ">
+                <p class="max-sm:tex-sm sm:max-md:text-sm"><i class="fa fa-check-circle" aria-hidden="true"></i>room service</p>
+                <p><i class="fa fa-check-circle" aria-hidden="true"></i>restaurant</p>
+                <p><i class="fa fa-check-circle" aria-hidden="true"></i>spa</p>
+                <p><i class="fa fa-check-circle" aria-hidden="true"></i>swimm</p>
+          </div>
+          <div class="price grid grid-cols-3 row-start-4 row-end-5 items-center max-sm:row-start-2 max-sm:row-end-3 sm:max-md:row-start-2 sm:max-md:row-end-3">
+            <div class="price col-span-2">
+              <div class="detailprice flex items-center gap-4">
+                <h2 class="text-2xl font-bold">$99</h2>
+                <h2>$1200</h2>
+              </div>
+              <p>per room/night</p>
+            </div>
+            <div class="view h-1/2 w-4/5 col-span-1 border-2 rounded-xl border-black bg-black flex items-center">
+              <a class="w-full"  href="/src/moutainviewhotel.html"><h1 class="text-slate-50 text-center w-full sm:hidden">click</h1><h1 class="text-slate-50 text-center w-full max-sm:text-[10px] sm:max-md:text-[10px] max-sm:hidden">viewmoredetails</h1></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hotel grid grid-cols-3 gap-3 border-2 rounded-xl border-slate-700 w-auto h-auto max-sm:gap-2 sm:max-md:gap-3 ">
+        <div class="img col-span-1">
+          <img class="max-sm:h-full sm:max-md:h-full border-2 rounded-xl" src="/src/img/73821843_XL.webp" alt="">
+        </div>
+        <div class="demohotel grid grid-rows-4 col-span-2 max-sm:grid-rows-2 sm:max-md:grid-rows-2">
+        
+           <div>
+              <h1 class="text-2xl font-bold max-sm:text-[12px] sm:max-md:text-sm">Hotel Mountainview</h1>
+              <p>379 fm 2972 west rusk tx 75785</p>
+              <p><i class="fa-regular fa-star text-yellow-400"></i> 4,7 (95 review)</p>
+           </div>
+          <div class="standar flex items-center gap-11 max-sm:hidden sm:max-md:hidden ">
+                <p class="max-sm:tex-sm sm:max-md:text-sm"><i class="fa fa-check-circle" aria-hidden="true"></i>room service</p>
+                <p><i class="fa fa-check-circle" aria-hidden="true"></i>restaurant</p>
+                <p><i class="fa fa-check-circle" aria-hidden="true"></i>spa</p>
+                <p><i class="fa fa-check-circle" aria-hidden="true"></i>swimm</p>
+          </div>
+          <div class="price grid grid-cols-3 row-start-4 row-end-5 items-center max-sm:row-start-2 max-sm:row-end-3 sm:max-md:row-start-2 sm:max-md:row-end-3">
+            <div class="price col-span-2">
+              <div class="detailprice flex items-center gap-4">
+                <h2 class="text-2xl font-bold">$99</h2>
+                <h2>$1200</h2>
+              </div>
+              <p>per room/night</p>
+            </div>
+            <div class="view h-1/2 w-4/5 col-span-1 border-2 rounded-xl border-black bg-black flex items-center">
+              <a class="w-full"  href="/src/moutainviewhotel.html"><h1 class="text-slate-50 text-center w-full sm:hidden">click</h1><h1 class="text-slate-50 text-center w-full max-sm:text-[10px] sm:max-md:text-[10px] max-sm:hidden">viewmoredetails</h1></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hotel grid grid-cols-3 gap-3 border-2 rounded-xl border-slate-700 w-auto h-auto max-sm:gap-2 sm:max-md:gap-3 ">
+        <div class="img col-span-1">
+          <img class="max-sm:h-full sm:max-md:h-full border-2 rounded-xl" src="/src/img/73821843_XL.webp" alt="">
+        </div>
+        <div class="demohotel grid grid-rows-4 col-span-2 max-sm:grid-rows-2 sm:max-md:grid-rows-2">
+        
+           <div>
+              <h1 class="text-2xl font-bold max-sm:text-[12px] sm:max-md:text-sm">Hotel Mountainview</h1>
+              <p>379 fm 2972 west rusk tx 75785</p>
+              <p><i class="fa-regular fa-star text-yellow-400"></i> 4,7 (95 review)</p>
+           </div>
+          <div class="standar flex items-center gap-11 max-sm:hidden sm:max-md:hidden ">
+                <p class="max-sm:tex-sm sm:max-md:text-sm"><i class="fa fa-check-circle" aria-hidden="true"></i>room service</p>
+                <p><i class="fa fa-check-circle" aria-hidden="true"></i>restaurant</p>
+                <p><i class="fa fa-check-circle" aria-hidden="true"></i>spa</p>
+                <p><i class="fa fa-check-circle" aria-hidden="true"></i>swimm</p>
+          </div>
+          <div class="price grid grid-cols-3 row-start-4 row-end-5 items-center max-sm:row-start-2 max-sm:row-end-3 sm:max-md:row-start-2 sm:max-md:row-end-3">
+            <div class="price col-span-2">
+              <div class="detailprice flex items-center gap-4">
+                <h2 class="text-2xl font-bold">$99</h2>
+                <h2>$1200</h2>
+              </div>
+              <p>per room/night</p>
+            </div>
+            <div class="view h-1/2 w-4/5 col-span-1 border-2 rounded-xl border-black bg-black flex items-center">
+              <a class="w-full"  href="/src/moutainviewhotel.html"><h1 class="text-slate-50 text-center w-full sm:hidden">click</h1><h1 class="text-slate-50 text-center w-full max-sm:text-[10px] sm:max-md:text-[10px] max-sm:hidden">viewmoredetails</h1></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hotel grid grid-cols-3 gap-3 border-2 rounded-xl border-slate-700 w-auto h-auto max-sm:gap-2 sm:max-md:gap-3 ">
+        <div class="img col-span-1">
+          <img class="max-sm:h-full sm:max-md:h-full border-2 rounded-xl" src="/src/img/73821843_XL.webp" alt="">
+        </div>
+        <div class="demohotel grid grid-rows-4 col-span-2 max-sm:grid-rows-2 sm:max-md:grid-rows-2">
+        
+           <div>
+              <h1 class="text-2xl font-bold max-sm:text-[12px] sm:max-md:text-sm">Hotel Mountainview</h1>
+              <p>379 fm 2972 west rusk tx 75785</p>
+              <p><i class="fa-regular fa-star text-yellow-400"></i> 4,7 (95 review)</p>
+           </div>
+          <div class="standar flex items-center gap-11 max-sm:hidden sm:max-md:hidden ">
+                <p class="max-sm:tex-sm sm:max-md:text-sm"><i class="fa fa-check-circle" aria-hidden="true"></i>room service</p>
+                <p><i class="fa fa-check-circle" aria-hidden="true"></i>restaurant</p>
+                <p><i class="fa fa-check-circle" aria-hidden="true"></i>spa</p>
+                <p><i class="fa fa-check-circle" aria-hidden="true"></i>swimm</p>
+          </div>
+          <div class="price grid grid-cols-3 row-start-4 row-end-5 items-center max-sm:row-start-2 max-sm:row-end-3 sm:max-md:row-start-2 sm:max-md:row-end-3">
+            <div class="price col-span-2">
+              <div class="detailprice flex items-center gap-4">
+                <h2 class="text-2xl font-bold">$99</h2>
+                <h2>$1200</h2>
+              </div>
+              <p>per room/night</p>
+            </div>
+            <div class="view h-1/2 w-4/5 col-span-1 border-2 rounded-xl border-black bg-black flex items-center">
+              <a class="w-full"  href="/src/moutainviewhotel.html"><h1 class="text-slate-50 text-center w-full sm:hidden">click</h1><h1 class="text-slate-50 text-center w-full max-sm:text-[10px] sm:max-md:text-[10px] max-sm:hidden">viewmoredetails</h1></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hotel grid grid-cols-3 gap-3 border-2 rounded-xl border-slate-700 w-auto h-auto max-sm:gap-2 sm:max-md:gap-3 ">
+        <div class="img col-span-1">
+          <img class="max-sm:h-full sm:max-md:h-full border-2 rounded-xl" src="/src/img/73821843_XL.webp" alt="">
+        </div>
+        <div class="demohotel grid grid-rows-4 col-span-2 max-sm:grid-rows-2 sm:max-md:grid-rows-2">
+        
+           <div>
+              <h1 class="text-2xl font-bold max-sm:text-[12px] sm:max-md:text-sm">Hotel Mountainview</h1>
+              <p>379 fm 2972 west rusk tx 75785</p>
+              <p><i class="fa-regular fa-star text-yellow-400"></i> 4,7 (95 review)</p>
+           </div>
+          <div class="standar flex items-center gap-11 max-sm:hidden sm:max-md:hidden ">
+                <p class="max-sm:tex-sm sm:max-md:text-sm"><i class="fa fa-check-circle" aria-hidden="true"></i>room service</p>
+                <p><i class="fa fa-check-circle" aria-hidden="true"></i>restaurant</p>
+                <p><i class="fa fa-check-circle" aria-hidden="true"></i>spa</p>
+                <p><i class="fa fa-check-circle" aria-hidden="true"></i>swimm</p>
+          </div>
+          <div class="price grid grid-cols-3 row-start-4 row-end-5 items-center max-sm:row-start-2 max-sm:row-end-3 sm:max-md:row-start-2 sm:max-md:row-end-3">
+            <div class="price col-span-2">
+              <div class="detailprice flex items-center gap-4">
+                <h2 class="text-2xl font-bold">$99</h2>
+                <h2>$1200</h2>
+              </div>
+              <p>per room/night</p>
+            </div>
+            <div class="view h-1/2 w-4/5 col-span-1 border-2 rounded-xl border-black bg-black flex items-center">
+              <a class="w-full"  href="/src/moutainviewhotel.html"><h1 class="text-slate-50 text-center w-full sm:hidden">click</h1><h1 class="text-slate-50 text-center w-full max-sm:text-[10px] sm:max-md:text-[10px] max-sm:hidden">viewmoredetails</h1></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hotel grid grid-cols-3 gap-3 border-2 rounded-xl border-slate-700 w-auto h-auto max-sm:gap-2 sm:max-md:gap-3 ">
+        <div class="img col-span-1">
+          <img class="max-sm:h-full sm:max-md:h-full border-2 rounded-xl" src="/src/img/73821843_XL.webp" alt="">
+        </div>
+        <div class="demohotel grid grid-rows-4 col-span-2 max-sm:grid-rows-2 sm:max-md:grid-rows-2">
+        
+           <div>
+              <h1 class="text-2xl font-bold max-sm:text-[12px] sm:max-md:text-sm">Hotel Mountainview</h1>
+              <p>379 fm 2972 west rusk tx 75785</p>
+              <p><i class="fa-regular fa-star text-yellow-400"></i> 4,7 (95 review)</p>
+           </div>
+          <div class="standar flex items-center gap-11 max-sm:hidden sm:max-md:hidden ">
+                <p class="max-sm:tex-sm sm:max-md:text-sm"><i class="fa fa-check-circle" aria-hidden="true"></i>room service</p>
+                <p><i class="fa fa-check-circle" aria-hidden="true"></i>restaurant</p>
+                <p><i class="fa fa-check-circle" aria-hidden="true"></i>spa</p>
+                <p><i class="fa fa-check-circle" aria-hidden="true"></i>swimm</p>
+          </div>
+          <div class="price grid grid-cols-3 row-start-4 row-end-5 items-center max-sm:row-start-2 max-sm:row-end-3 sm:max-md:row-start-2 sm:max-md:row-end-3">
+            <div class="price col-span-2">
+              <div class="detailprice flex items-center gap-4">
+                <h2 class="text-2xl font-bold">$99</h2>
+                <h2>$1200</h2>
+              </div>
+              <p>per room/night</p>
+            </div>
+            <div class="view h-1/2 w-4/5 col-span-1 border-2 rounded-xl border-black bg-black flex items-center">
+              <a class="w-full"  href="/src/moutainviewhotel.html"><h1 class="text-slate-50 text-center w-full sm:hidden">click</h1><h1 class="text-slate-50 text-center w-full max-sm:text-[10px] sm:max-md:text-[10px] max-sm:hidden">viewmoredetails</h1></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hotel grid grid-cols-3 gap-3 border-2 rounded-xl border-slate-700 w-auto h-auto max-sm:gap-2 sm:max-md:gap-3 ">
+        <div class="img col-span-1">
+          <img class="max-sm:h-full sm:max-md:h-full border-2 rounded-xl" src="/src/img/73821843_XL.webp" alt="">
+        </div>
+        <div class="demohotel grid grid-rows-4 col-span-2 max-sm:grid-rows-2 sm:max-md:grid-rows-2">
+        
+           <div>
+              <h1 class="text-2xl font-bold max-sm:text-[12px] sm:max-md:text-sm">Hotel Mountainview</h1>
+              <p>379 fm 2972 west rusk tx 75785</p>
+              <p><i class="fa-regular fa-star text-yellow-400"></i> 4,7 (95 review)</p>
+           </div>
+          <div class="standar flex items-center gap-11 max-sm:hidden sm:max-md:hidden ">
+                <p class="max-sm:tex-sm sm:max-md:text-sm"><i class="fa fa-check-circle" aria-hidden="true"></i>room service</p>
+                <p><i class="fa fa-check-circle" aria-hidden="true"></i>restaurant</p>
+                <p><i class="fa fa-check-circle" aria-hidden="true"></i>spa</p>
+                <p><i class="fa fa-check-circle" aria-hidden="true"></i>swimm</p>
+          </div>
+          <div class="price grid grid-cols-3 row-start-4 row-end-5 items-center max-sm:row-start-2 max-sm:row-end-3 sm:max-md:row-start-2 sm:max-md:row-end-3">
+            <div class="price col-span-2">
+              <div class="detailprice flex items-center gap-4">
+                <h2 class="text-2xl font-bold">$99</h2>
+                <h2>$1200</h2>
+              </div>
+              <p>per room/night</p>
+            </div>
+            <div class="view h-1/2 w-4/5 col-span-1 border-2 rounded-xl border-black bg-black flex items-center">
+              <a class="w-full"  href="/src/moutainviewhotel.html"><h1 class="text-slate-50 text-center w-full sm:hidden">click</h1><h1 class="text-slate-50 text-center w-full max-sm:text-[10px] sm:max-md:text-[10px] max-sm:hidden">viewmoredetails</h1></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
